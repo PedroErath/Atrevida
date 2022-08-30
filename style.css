@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #ffccc8;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #ffb1ac;
+}
+ul{
+    justify-content:end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.linkPag{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    text-decoration: none;
+    color: #e4544a;
+    font-weight: bold   ;
+}
+.btnheader{
+    padding: 10px;
+    border: #e4544a solid;
+    border-radius: 30px;
+}
+.primeiroBanner{
+    background:rgba(0, 0, 0, 0.6) url(assets/engin-akyurt-0bgCyhlq9oU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 570px;
+    box-sizing: border-box;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.textoPrimeiroBanner{
+    width: 370px;
+    text-align: center;
+}
+.tituloPrimeiroBanner{
+    font-size: 50px;
+}
+.paragrafoPrimeiroBanner{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.btnPrimeiroBanner{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e4544a;
+    padding: 10px 20px;
+    border: #e4544a solid;
+    border-radius: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 320px;
+    text-align: center;
+    margin: 50px 10px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+.imgcard{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px;
+}
+.textocard{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 30px;
+    color: rgb(95, 95, 95, 0.9);
+}
+.linkcard{
+    padding: 10px 15px;
+    width: 35%;
+    text-decoration: none;
+    color: #e4544a;
+    border: #e4544a solid;
+    font-weight: bold;
+    border-radius: 35px;
+}
+.bannerMandalas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.textoBannerMandalas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+.imgBannerMandalas{
+    border-radius: 0px 10px 10px 0px;
+    width: 500px;
+    height: 100%;
+}
+footer{
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #ffb1ac;
+}
+.textoEndereco{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.imgLink{
+    margin-top: 20px;
+    width: 60px;
+    margin-left: 20px;
+}
+.imgEndereco{
+    width: 100%;
+}

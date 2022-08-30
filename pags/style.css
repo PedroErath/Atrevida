@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffccc8;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #ffb1ac;
+}
+ul{
+    justify-content:end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.linkPag{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    text-decoration: none;
+    color: #e4544a;
+    font-weight: bold   ;
+}
+.btnheader{
+    padding: 10px;
+    border: #e4544a solid;
+    border-radius: 30px;
+}
+.depoimentoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    width: 320px;
+    text-align: left;
+    margin: 120px 10px 50px 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.nomeCliente{
+    margin-bottom: 20px;
+}
+.depoimentoCliente{
+    font-size: 20px;
+}
+.stars{
+    width: 100%;
+    text-align: right;
+}
+.fotosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotosLinhas{
+    width: 90%;
+    text-align: center;
+}
+.foto{
+    width: 30%;
+    height: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #ffb1ac;
+}
+.textoEndereco{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.imgLink{
+    margin-top: 20px;
+    width: 60px;
+    margin-left: 20px;
+}
+.imgEndereco{
+    width: 100%;
+}
